@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<h1>Formulaire de contact</h1>
+<fieldset>
+<form action="" id = "Form">
+    <div id="yourLName">
+        <label for="nom">Nom</label>
+        <input type="text" name="nom" id="nom" required>
+    </div>
+    <div id="yourFName">
+        <label for="prenom">Prénom</label><input type="text" name="prenom" id="prenom" required>
+    </div>        
+    <div id="yourDOB">
+        <label for="dob" id="goodA">Date de Naissance</label><input type="date" name="dob" id="naissance" max="2099-12-31" required>
+    </div>
+    <div id="yourGender">
+        <label>Genre</label>
+        <div><input type="radio" name="genre" id="homme" value="H" checked><label for="homme">Homme</label></div>
+        <div><input type="radio" name="genre" id="femme" value="F"><label for="femme" id="femLab">Femme</label></div>
+    </div>
+    <br>
+    <div id="passwordDiv">
+        <label for="pass">Password <span id="miniText">At least <span id="goodLet">8 letters</span>, a <span id="goodCap">Capital</span>, <span id="goodNum">Number</span> and a <span id="goodSym">Symbol</span> must be used at least once</span></label>
+        <input type="password" name="password" id="password" required  oninput="passCheck()">
+        
+    </div>
+    <input type="submit" value="Submit Form" id="subButton">
+</form><br>
+
+</fieldset>
+<footer>
+  
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

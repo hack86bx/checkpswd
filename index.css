@@ -1,0 +1,99 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  text-decoration: underline;
+  
+  font-style: italic;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  
+}
+fieldset{
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  width: 15%;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-radius: 25px;
+ 
+  
+}
+h1 {
+  text-align: center;
+}
+#yourLName, #yourFName, #yourDOB, #subButton, #passwordDiv{
+  margin-bottom: 10px;
+  border-radius: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+label{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+  
+}
+#yourGender  {
+  display: flex;
+  flex-direction: row;  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+   
+}
+
+#naissance {
+  width: 100%;
+  border-radius: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+#yourGender>label {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5px;
+}
+
+#femLab {
+  margin-left: 1em;
+}
+
+#togglePassword {
+  width: 50px;
+  
+}
+
+.passSpan {
+  color: red;
+  justify-content: center;
+  display: flex;
+  display: none;
+}
+
+#miniText {
+  font-size: 0.8em;
+  color: red;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+  font-family: cursive;
+}
+
+#copyright{                 
+  transition: transform 50s ease-in-out;
+}
+
+#copyright:hover {
+  transform: rotateY(-36000deg);
+ 
+} 
